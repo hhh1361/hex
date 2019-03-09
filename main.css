@@ -1,8 +1,25 @@
-.navigation {
-    width: 1063px;
-    height: 61px;
-    background-image: url(../hexal/assets/images/header/Header@1X.png)
+
+header {
+    
+    height: 58px;
+    background-color: #323232;
+    position: relative;
 }
+
+header::after{
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 44px solid transparent;
+    border-right: 44px solid transparent;
+    border-top: 25px solid #323232;
+    position: absolute;
+    left: 471px;
+    top: 58px;
+    transform: translateX(-50%)
+    
+}
+
 .menu li {
     display: inline-block;
 }
