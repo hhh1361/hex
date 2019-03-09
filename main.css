@@ -25,9 +25,9 @@ header::after{
 }
 
 .hexagon {
-    width: 180px;
-    height: 209px;
-    margin: 5px;   
+    width: 164px;
+    height: 195px;
+    margin: 8px;   
     transform: rotate(60deg);
     overflow: hidden;
     visibility: hidden;
@@ -51,3 +51,8 @@ header::after{
     background-repeat: no-repeat;
     background-position: 50%;
 }
+
+input {
+    width: 100%;
+}
+
