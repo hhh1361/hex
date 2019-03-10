@@ -1,10 +1,12 @@
 main, header, footer {
     box-sizing: border-box;
-    width: 944px;
+    width: 943px;
 }
-
-header {
-    
+#my-h1 {
+    color:white;
+    position: absolute;
+    }
+header {   
     height: 58px;
     background-color: #323232;
     position: relative;
@@ -15,15 +17,15 @@ nav {
 ul {
     position: relative;
 }
-li{
-    position: absolute;
-}
 li.logo {
-    left: 436px;;
+    left: 436px;
+    margin-top: 7px;
+    margin-left:1px;
 }
 li.item-portfolio {
     top: 29px;
     left: 300px;
+    color:#2eac93;
 }
 li.item-point-1 {
     top: 33px;
@@ -35,7 +37,7 @@ li.item-about {
 }
 li.item-blog {
     top: 29px;
-    left: 535px;
+    left: 536px;
 }
 li.item-point-2 {
     top: 33px;
@@ -43,7 +45,7 @@ li.item-point-2 {
 }
 li.item-get-in-touch {
     top: 29px;
-    left: 583px;
+    left: 582px;
 }
 header::after{
     content: "";
@@ -57,20 +59,20 @@ header::after{
     top: 58px;
     transform: translateX(-50%)    
 }
-
 ul li {
+    position: absolute;
+    font-family: 'Lato', sans-serif;
     display: inline-block;
     text-transform: uppercase;
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 7.21379pt;
+    font-size: 6.7pt;
     color: #f5f5f5;
-    text-align: justify;
-  
+    text-align: justify; 
     vertical-align: middle;
 }
 .menu li:hover {
     color:#2eac93;
+    cursor: pointer;
+    font-size: 8pt;
 }
  .point {
      content: '';
@@ -78,15 +80,8 @@ ul li {
      height: 1px;
      width: 1px;
      border-radius: 90%;
-     border: 1px solid #f5f5f5;
+     border: 1px solid #484c5f;
  }
-.logo {
-    margin-top: 5px;
-    margin-left:3px;
-}
-.item {
-    
-}
 .hexogon-container {
     width: 100%;
 }
@@ -94,12 +89,11 @@ ul li {
     margin: 73px 105px 0px 105px;
 }
 .row-2{
-    margin: -60px 14px;
+    margin: -59px 13px;
 }
 .row-3{
-    margin: 2px 105px;
+    margin: 1px 105px 34px 105px;
 }
-
 .hexagon {
     width: 164px;
     height: 195px;
@@ -116,7 +110,6 @@ ul li {
     overflow: hidden;
     visibility: hidden;
 }
-
 .hex-layer-2 {
     width: 100%;
     height: 100%;
@@ -165,8 +158,217 @@ ul li {
 .img-13 {
     background-image: url(../hex/assets/images/portfolio/img-13.png);
 }
-
+.scroll {
+    margin-left: 24px;
+}
+.scroll img {
+    width: 5.5px;
+    height: 5.5px;
+}
+.scroll img:hover {
+    cursor: pointer;
+}
 input {
     width: 100%;
 }
-
+section.info {
+    background-color: #2eb398;
+}
+.photo {
+    background-image: url(../hex/assets/images/article/photo.png)
+}
+hr {
+    align:center;
+    width:870px; 
+    size:100px;
+    color:gainsboro;
+}
+.article { 
+    height: 318px;
+    position: relative;
+}
+.article-area {
+    padding-top: 52px;
+    margin-left: 104px;
+    width: 745px;
+    height: 254px;
+    border-left: 1px solid #219d84;
+    border-right: 1px solid #219d84;
+}
+.text-block {
+    position:absolute;
+    left: 294px;
+    top: 62px;
+    width: 540px;
+}
+.text-block h3 {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 20.5pt;
+    color: rgba(215, 252, 245, 255);
+    text-align: justify;     
+}
+.text-block h4 {
+    font-family: 'Maven Pro', sans-serif; 
+    font-size: 12.3pt;
+    color: rgba(32, 129, 109, 255);
+    text-align: justify;     
+}
+.text-block p {
+    font-family: 'Lato', sans-serif; 
+    font-size: 8.2pt;
+    color: rgba(215, 252, 245, 255);
+    text-align: justify;
+    line-height: 20px    
+}
+.social-networks-area {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 392px;
+}
+.social-network {
+    float: left;
+}
+.social-network:hover {
+    cursor: pointer;
+    background-color: #2eb398;
+    opacity: 0.8;
+    transform: scale(1.2)
+}
+form{
+    height: 518px;
+    background-color: #323232;
+}
+fieldset {
+    margin-left: 110px;
+    width: 521px;
+    padding-top: 56px;
+    line-height: 25px;
+    overflow: hidden;
+}
+fieldset div:first-child {
+    font-family: 'Maven Pro', sans-serif; 
+    font-size: 21pt;
+    color: rgba(224, 224, 224, 255);
+    text-align: justify;
+}
+fieldset div  {
+    font-family: 'Maven Pro', sans-serif; 
+    font-size: 12.5pt;
+    color: rgba(224, 224, 224, 255);
+    text-align: justify;
+}
+.input-text {
+    margin-top: 16px;
+    padding-left: 14px;
+    background-color: #454545;
+    border: 0px;
+    line-height: 34px;
+    font-family: 'Lato', sans-serif;  
+    font-size: 8pt;
+    color: rgba(224, 224, 224, 255);
+    text-align: justify;
+}
+.email {
+    margin-top: 14px;
+    padding-left: 14px;
+    background-color: #454545;
+    border: 0px;
+    line-height: 34px;
+    font-family: 'Lato', sans-serif;  
+    font-size: 8pt;
+    color: rgba(224, 224, 224, 255);
+    text-align: justify;
+}
+.subject {
+    margin-top: 15px;
+    padding-left: 14px;
+    background-color: #454545;
+    border: 0px;
+    line-height: 34px;
+    font-family: 'Lato', sans-serif;  
+    font-size: 8pt;
+    color: #868686;
+    text-align: justify;
+}
+textarea {
+    width: 521px;
+    height: 133px;
+    margin-top: 15px;
+    padding-left: 14px;
+    background-color: #454545;
+    border: 0px;
+    line-height: 24px;
+    font-family: 'Lato', sans-serif;  
+    font-size: 8pt;
+    color: #868686;
+    text-align: justify;
+}
+.button-submit {
+    margin-top: 6px;
+    width: 83px;
+    height: 36px;
+    background-color: #2eb398;
+    border: 0px;
+    float: right;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;  
+    font-size: 8pt;
+    color: rgba(215, 252, 245, 255);
+    text-align: center;
+}
+.button-submit:hover {
+    cursor: pointer;
+}
+b {
+    font-weight: bold;
+}
+form {
+    position: relative;
+}
+.more-info {
+    position: absolute;
+    width: 169px;
+    height: 170px;
+    top: 118px;
+    left: 663px;
+    font-family: 'Lato', sans-serif;
+    font-size: 8.5pt;
+    color: rgba(224, 224, 224, 255);
+    text-align: justify;
+    line-height: 20px;
+}
+.contacts {
+    position: absolute;
+    width: 169px;
+    height: 60px;
+    top: 268px;
+    left: 687px;
+    font-family: 'Lato', sans-serif;
+    font-size: 8.5pt;
+    color: rgba(224, 224, 224, 255);
+    text-align: justify;
+    line-height: 20px;
+}
+.geo {
+    position: absolute;
+    top: 270px;
+    left: 668px; 
+}
+.phone {
+    position: absolute;
+    top: 290px;
+    left: 666px; 
+}
+.mail {
+    position: absolute;
+    top: 308px;
+    left: 664px; 
+}
+.copyright {
+    height: 40px;
+    background-color: #222222;
+    font-size: 8.65655pt;
+    color: rgba(69, 69, 69, 255);
+    text-align: justify;
+    padding: 16px 0px 0px 36px;
+}
